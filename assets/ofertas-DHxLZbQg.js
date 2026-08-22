@@ -1,0 +1,1 @@
+const a=e=>{const t=Date.now(),c=e.expiresAt>0?e.expiresAt:e.fechaFin,n=c>0&&c<=t;return e.estado==="listo_para_envio"&&!n},o=e=>e?new Date(e).toLocaleDateString("es-ES",{day:"2-digit",month:"short",year:"2-digit"}):"";export{a as c,o as f};

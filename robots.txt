@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emprendeistg.vercel.app/sitemap.xml
